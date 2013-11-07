@@ -11,7 +11,7 @@ Summary: Really Awesome New Cisco confIg Differ (w/ git support)
 Group:   Applications/Internet
 License: BSD with advertising
 URL:     https://github.com/dotwaffle/rancid-git
-Source:  https://github.com/ISEexchange/rancid-git/archive/%{commit}/%{name}-%{version}-%{release}.tar.gz
+Source:  https://github.com/ISEexchange/rancid-git/archive/%{commit}/%{name}-%{version}.tar.gz
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
