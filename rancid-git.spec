@@ -5,7 +5,7 @@
 
 Name:    rancid-git
 Version: 2.3.8
-Release: 2%{?dist}
+Release: 3%{?dist}
 Summary: Really Awesome New Cisco confIg Differ (w/ git support)
 
 Group:   Applications/Internet
@@ -44,7 +44,7 @@ including software and hardware (cards, serial numbers, etc) and uses CVS
 
 
 %prep
-%setup -q -n %{name}-%{commit}
+%setup -q
 
 %build
 aclocal; autoheader; automake; autoconf
