@@ -109,6 +109,9 @@ exit 0
 
 
 %changelog
+* Thu Nov 07 2013 James Cape <james.cape@iextrading.com> 2.3.8-0
+- new package built with tito
+
 * Wed Jun 05 2013 Paul Morgan <jumanjiman@gmail.com> 2.3.8-0
 - use tito to build rpm
 - fix rpm spec file
