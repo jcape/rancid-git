@@ -5,7 +5,7 @@
 
 Name:    rancid-git
 Version: 2.3.8
-Release: 3%{?dist}
+Release: 4%{?dist}
 Summary: Really Awesome New Cisco confIg Differ (w/ git support)
 
 Group:   Applications/Internet
