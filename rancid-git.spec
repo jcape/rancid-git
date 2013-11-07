@@ -5,7 +5,7 @@
 
 Name:    rancid-git
 Version: 2.3.8
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: Really Awesome New Cisco confIg Differ (w/ git support)
 
 Group:   Applications/Internet
@@ -109,6 +109,15 @@ exit 0
 
 
 %changelog
+* Thu Nov 07 2013 James Cape <james.cape@iextrading.com>
+- More fussing with the tarballs. (james.cape@iextrading.com)
+
+* Thu Nov 07 2013 James Cape <james.cape@iextrading.com>
+- More fussing with the tarballs. (james.cape@iextrading.com)
+
+* Thu Nov 07 2013 James Cape <james.cape@iextrading.com>
+- More fussing with the tarballs. (james.cape@iextrading.com)
+
 * Thu Nov 07 2013 James Cape <james.cape@iextrading.com> 2.3.8-1
 - Fix the source tarball name. (james.cape@iextrading.com)
 
