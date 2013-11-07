@@ -109,6 +109,9 @@ exit 0
 
 
 %changelog
+* Thu Nov 07 2013 James Cape <james.cape@iextrading.com> 2.3.8-3
+- More specfile cleanups. (james.cape@iextrading.com)
+
 * Thu Nov 07 2013 James Cape <james.cape@iextrading.com> 2.3.8-2
 - Bump release. (james.cape@iextrading.com)
 - Bump release. (james.cape@iextrading.com)
