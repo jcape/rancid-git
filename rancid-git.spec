@@ -11,7 +11,7 @@ Summary: Really Awesome New Cisco confIg Differ (w/ git support)
 Group:   Applications/Internet
 License: BSD with advertising
 URL:     https://github.com/dotwaffle/rancid-git
-Source:  https://github.com/ISEexchange/rancid-git/archive/%{commit}/%{name}-%{version}-%{shortcommit}.tar.gz
+Source:  https://github.com/ISEexchange/rancid-git/archive/%{commit}/%{name}-%{version}-%{release}.tar.gz
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
@@ -48,7 +48,7 @@ including software and hardware (cards, serial numbers, etc) and uses CVS
 
 %build
 aclocal; autoheader; automake; autoconf
-%configure --sysconfdir=%{_sysconfdir}/rancid --bindir=%{_libexecdir}/rancid --enable-conf-install
+%configure --sysconfdir=%{_sysconfdir}/rancid --bindir=%{_libexecdir}/rancid --enable-conf-install --enable-git
 make %{?_smp_mflags}
 
 
