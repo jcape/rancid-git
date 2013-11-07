@@ -26,7 +26,6 @@ BuildRequires: perl
 BuildRequires: iputils
 BuildRequires: automake
 BuildRequires: libtool
-BuildRequires: sysconftool
 
 Conflicts: rancid
 
